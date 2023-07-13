@@ -1,0 +1,59 @@
+{
+  "docs": {
+    "欢迎": ["documentation-intro"],
+    "开始": [
+      "getting-started",
+      "folder-structure",
+      "available-scripts",
+      "supported-browsers-features",
+      "updating-to-new-releases"
+    ],
+    "开发": [
+      "setting-up-your-editor",
+      "developing-components-in-isolation",
+      "analyzing-the-bundle-size",
+      "using-https-in-development"
+    ],
+    "样式和资产": [
+      "adding-a-stylesheet",
+      "adding-a-css-modules-stylesheet",
+      "adding-a-sass-stylesheet",
+      "adding-css-reset",
+      "post-processing-css",
+      "adding-images-fonts-and-files",
+      "loading-graphql-files",
+      "using-the-public-folder",
+      "code-splitting"
+    ],
+    "构建应用程序": [
+      "installing-a-dependency",
+      "importing-a-component",
+      "using-global-variables",
+      "adding-bootstrap",
+      "adding-flow",
+      "adding-typescript",
+      "adding-relay",
+      "adding-a-router",
+      "adding-custom-environment-variables",
+      "making-a-progressive-web-app",
+      "measuring-performance",
+      "production-build"
+    ],
+    "测试": ["running-tests", "debugging-tests"],
+    "后端集成": [
+      "proxying-api-requests-in-development",
+      "fetching-data-with-ajax-requests",
+      "integrating-with-an-api-backend",
+      "title-and-meta-tags"
+    ],
+    "开发": ["deployment"],
+    "高级用法": [
+      "custom-templates",
+      "can-i-use-decorators",
+      "pre-rendering-into-static-html-files",
+      "advanced-configuration",
+      "alternatives-to-ejecting"
+    ],
+    "支持": ["troubleshooting"]
+  }
+}
