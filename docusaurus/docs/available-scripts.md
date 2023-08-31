@@ -4,7 +4,7 @@ title: 可用的脚本
 sidebar_label: 可用的脚本
 ---
 
-In the project directory, you can run:
+在项目目录下，可以运行:
 
 ## `npm start`
 
@@ -26,9 +26,9 @@ Your app is ready to be deployed! See the section about [deployment](deployment.
 
 ## `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Note: 这是一个单向操作。一旦你`eject`，你就回不去了!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+如果您对构建工具和配置选择不满意，您可以随时`eject`。此命令将从项目中删除单个构建依赖项。
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) into your project as dependencies in `package.json`. Technically, the distinction between dependencies and development dependencies is pretty arbitrary for front-end apps that produce static bundles.
 

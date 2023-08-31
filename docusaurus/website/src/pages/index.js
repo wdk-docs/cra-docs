@@ -21,7 +21,7 @@ const features = [
   {
     title: '很少的学习',
     content:
-      "您不需要学习和配置许多构建工具。即时重新加载帮助你专注于开发。部署时，您的包将自动优化。",
+      '您不需要学习和配置许多构建工具。即时重新加载帮助你专注于开发。部署时，您的包将自动优化。',
   },
   {
     title: '只有一个依赖项',
@@ -81,9 +81,10 @@ function Home() {
         <div className="container padding-vert--xl text--left">
           <div className="row">
             <div className="col col--4 col--offset-1">
-              <h2>在几秒钟内开始</h2>
+              <h2>几秒内开始</h2>
               <p>
-              无论你是使用React还是其他库，Create React App都可以让你<strong>专注于代码，而不是构建工具</strong>。
+                无论你是使用React还是其他库，Create React App都可以让你
+                <strong>专注于代码，而不是构建工具</strong>。
                 <br />
                 <br />
                 要创建一个名为<i>my-app</i>的项目，运行命令:
@@ -116,9 +117,10 @@ function Home() {
               />
             </div>
             <div className="col col--5 col--offset-1">
-              <h2>Easy to Maintain</h2>
+              <h2>易于维护</h2>
               <p>
-              更新构建工具通常是一项艰巨而耗时的任务。当新版本的Create React App发布时，你可以使用一个命令进行升级:
+                更新构建工具通常是一项艰巨而耗时的任务。当新版本的Create React
+                App发布时，你可以使用一个命令进行升级:
               </p>
               <CodeBlock className="language-sh">
                 npm install react-scripts@latest

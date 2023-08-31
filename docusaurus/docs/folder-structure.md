@@ -3,7 +3,7 @@ id: folder-structure
 title: 文件夹结构
 ---
 
-After creation, your project should look like this:
+创建完成后，你的项目应该是这样的:
 
 ```
 my-app/
@@ -22,17 +22,19 @@ my-app/
     logo.svg
 ```
 
-For the project to build, **these files must exist with exact filenames**:
+要构建项目，**这些文件必须以确切的文件名存在**:
 
-- `public/index.html` is the page template;
-- `src/index.js` is the JavaScript entry point.
+- `public/index.html` 是页面模板;
+- `src/index.js` JavaScript 的入口点是什么.
 
-You can delete or rename the other files.
+您可以删除或重命名其他文件。
 
-You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by webpack. You need to **put any JS and CSS files inside `src`**, otherwise webpack won’t see them.
+你可以在`src`里面创建子目录。
+为了更快地重建，webpack 只处理`src`中的文件。
+你需要 **把所有 JS 和 CSS 文件放到`src`** 中，否则 webpack 不会看到它们。
 
-Only files inside `public` can be used from `public/index.html`. Read instructions below for using assets from JavaScript and HTML.
+只有`public`中的文件才能从`public/index.html`中使用。阅读下面使用 JavaScript 和 HTML 资源的说明。
 
-You can, however, create more top-level directories. They will not be included in the production build so you can use them for things like documentation.
+但是，您可以创建更多的顶级目录。它们不会包含在生产版本中，因此您可以将它们用于文档之类的工作。
 
-If you have Git installed and your project is not part of a larger repository, then a new repository will be initialized resulting in an additional top-level `.git` directory.
+如果你已经安装了 Git，而你的项目不是一个更大的存储库的一部分，那么一个新的存储库将被初始化，从而产生一个额外的顶层`.git`目录。

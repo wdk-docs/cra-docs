@@ -1,33 +1,33 @@
 # Website
 
-This website is built using Docusaurus 2, a modern static website generator.
+这个网站是用 Docusaurus 2 建立的，一个现代的静态网站生成器。
 
-### Installation
+### 安装
 
 ```
 $ npm install
 ```
 
-### Local Development
+### 本地开发
 
 ```
 $ npm start
 ```
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+该命令启动本地开发服务器并打开浏览器窗口。大多数更改都是实时反映的，而无需重新启动服务器。
 
-### Build
+### 构建
 
 ```
 $ npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+该命令将静态内容生成到`build`目录中，并且可以使用任何静态内容托管服务。
 
-### Deployment
+### 部署
 
 ```
 $ GIT_USER=<Your GitHub username> USE_SSH=1 npm run deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+如果您正在使用 GitHub 页面进行托管，则此命令是构建网站并推送到`gh-pages`分支的方便方法。

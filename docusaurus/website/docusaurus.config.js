@@ -10,9 +10,9 @@ const siteConfig = {
   title: 'Create React App',
   tagline: '通过运行一个命令设置一个现代的web应用程序。',
   url: 'https://create-react-app.dev',
-  baseUrl: '/',
-  projectName: 'create-react-app',
-  organizationName: 'facebook',
+  baseUrl: '/cra-docs/',
+  projectName: 'cra-docs',
+  organizationName: 'wdk-docs',
   favicon: 'img/favicon/favicon.ico',
   presets: [
     [
@@ -21,7 +21,8 @@ const siteConfig = {
         docs: {
           path: '../docs',
           sidebarPath: require.resolve('./sidebars.json'),
-          editUrl: 'https://github.com/wdk-docs/cra-docs/edit/main/docusaurus/website',
+          editUrl:
+            'https://github.com/wdk-docs/cra-docs/edit/main/docusaurus/website',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -32,8 +33,8 @@ const siteConfig = {
     ],
   ],
   i18n: {
-    defaultLocale: "zh-Hans",
-    locales: ["zh-Hans"],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
   themeConfig: {
     image: 'img/logo-og.png',
